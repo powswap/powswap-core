@@ -3,7 +3,7 @@
 ## Deployments
 
 ### Mainnet & ETH PoW forks
-
+```
 Owner 0x0E4B3A0Eafb7F7c44C46444977AFeA5853a726d3
 Dev 0x906815B1EeCb947c9bC9C158D0Bb0E6C42074150
 "UniswapV2Factory" at 0x2164Fc926cfc0112bd0aE3e55C2FC94522025E08
@@ -12,10 +12,11 @@ Dev 0x906815B1EeCb947c9bC9C158D0Bb0E6C42074150
 "MasterChef" (tx: 0x1cb444962341cb3acab71cf17c4efc4e5edade134150b095a055b88435b84523)...: deployed at 0xb5B6B46EE6f6c93c41123F8edFD3F9506Fef6bf8
 Transfer Sushi Ownership to Chef
 Transfer ownership of MasterChef to dev
+```
 
 ### Goerli
 
-
+```
 Owner 0x0E4B3A0Eafb7F7c44C46444977AFeA5853a726d3
 Dev 0x906815B1EeCb947c9bC9C158D0Bb0E6C42074150
 "UniswapV2Factory" (tx: 0xff46ff05bb83623357740d00e61b7144d03d6fc3830b3528acffb53a9725ce16)...: deployed at 0x2164Fc926cfc0112bd0aE3e55C2FC94522025E08
@@ -24,6 +25,7 @@ Dev 0x906815B1EeCb947c9bC9C158D0Bb0E6C42074150
 "MasterChef" (tx: 0xf56fe6523fdbc139319e12534cbb8d34be4ee69d2ecdb2a44eea4a1cf8b3fead)...: deployed at 0xb5B6B46EE6f6c93c41123F8edFD3F9506Fef6bf8
 Transfer Sushi Ownership to Chef
 Transfer ownership of MasterChef to dev
+```
 
 
 ## License
