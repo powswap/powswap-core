@@ -264,6 +264,16 @@ const config: HardhatUserConfig = {
       tags: ["staging"],
       gasMultiplier: 2,
     },
+    "iceberg-ethw": {
+      url: "https://iceberg.ethereumpow.org",
+      accounts,
+      chainId: 10002,
+      live: true,
+      saveDeployments: true,
+      tags: ["staging"],
+      gasPrice: 1,
+      gasMultiplier: 2,
+    },
   },
   paths: {
     artifacts: "artifacts",

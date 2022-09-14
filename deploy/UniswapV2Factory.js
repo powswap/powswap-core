@@ -14,6 +14,9 @@ module.exports = async function ({
 
   const { deployer, dev } = await getNamedAccounts();
 
+  console.log(deployer)
+  console.log(dev)
+
   await deploy("UniswapV2Factory", {
     contract: {
       abi,
