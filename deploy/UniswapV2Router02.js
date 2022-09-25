@@ -11,6 +11,8 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
 
   if (chainId === "31337") {
     wethAddress = (await deployments.get("WETH9Mock")).address;
+  } else if (chainId === "10001") {
+    wethAddress = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
   } else if (chainId in WETH) {
     wethAddress = WETH[chainId].address;
   } else {

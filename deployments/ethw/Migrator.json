@@ -1,0 +1,212 @@
+{
+  "address": "0x94428c5FA5e1f34Ec510f7fB2ce5420146e01351",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_chef",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_oldFactory",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IUniswapV2Factory",
+          "name": "_factory",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_notBeforeBlock",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "chef",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "desiredLiquidity",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "factory",
+      "outputs": [
+        {
+          "internalType": "contract IUniswapV2Factory",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract IUniswapV2Pair",
+          "name": "orig",
+          "type": "address"
+        }
+      ],
+      "name": "migrate",
+      "outputs": [
+        {
+          "internalType": "contract IUniswapV2Pair",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "notBeforeBlock",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "oldFactory",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xefd6a4b9f53f54cfd89aecf6bff2ebdfb9d1b7d8402c483d0575e8950c7ce897",
+  "receipt": {
+    "to": null,
+    "from": "0x0E4B3A0Eafb7F7c44C46444977AFeA5853a726d3",
+    "contractAddress": "0x94428c5FA5e1f34Ec510f7fB2ce5420146e01351",
+    "transactionIndex": 0,
+    "gasUsed": "520538",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x4490f0e224010f210fa8d926056e20522aea10cce8016cdb6c8197c6bff92574",
+    "transactionHash": "0xefd6a4b9f53f54cfd89aecf6bff2ebdfb9d1b7d8402c483d0575e8950c7ce897",
+    "logs": [],
+    "blockNumber": 15589490,
+    "cumulativeGasUsed": "520538",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0xb5B6B46EE6f6c93c41123F8edFD3F9506Fef6bf8",
+    "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+    "0x62009bD6349A3A1d7f1bcC7C69492Cd26F1FBF75",
+    0
+  ],
+  "solcInputHash": "fef0b466581acf816dbb701180e5927a",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_chef\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_oldFactory\",\"type\":\"address\"},{\"internalType\":\"contract IUniswapV2Factory\",\"name\":\"_factory\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_notBeforeBlock\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"chef\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"desiredLiquidity\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"factory\",\"outputs\":[{\"internalType\":\"contract IUniswapV2Factory\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"contract IUniswapV2Pair\",\"name\":\"orig\",\"type\":\"address\"}],\"name\":\"migrate\",\"outputs\":[{\"internalType\":\"contract IUniswapV2Pair\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"notBeforeBlock\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"oldFactory\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Migrator.sol\":\"Migrator\"},\"evmVersion\":\"istanbul\",\"libraries\":{\"__CACHE_BREAKER__\":\"0x00000000d41867734bbee4c6863d9255b2b06ac1\"},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Migrator.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity 0.6.12;\\n\\nimport \\\"./uniswapv2/interfaces/IUniswapV2Pair.sol\\\";\\nimport \\\"./uniswapv2/interfaces/IUniswapV2Factory.sol\\\";\\n\\n\\ncontract Migrator {\\n    address public chef;\\n    address public oldFactory;\\n    IUniswapV2Factory public factory;\\n    uint256 public notBeforeBlock;\\n    uint256 public desiredLiquidity = uint256(-1);\\n\\n    constructor(\\n        address _chef,\\n        address _oldFactory,\\n        IUniswapV2Factory _factory,\\n        uint256 _notBeforeBlock\\n    ) public {\\n        chef = _chef;\\n        oldFactory = _oldFactory;\\n        factory = _factory;\\n        notBeforeBlock = _notBeforeBlock;\\n    }\\n\\n    function migrate(IUniswapV2Pair orig) public returns (IUniswapV2Pair) {\\n        require(msg.sender == chef, \\\"not from master chef\\\");\\n        require(block.number >= notBeforeBlock, \\\"too early to migrate\\\");\\n        require(orig.factory() == oldFactory, \\\"not from old factory\\\");\\n        address token0 = orig.token0();\\n        address token1 = orig.token1();\\n        IUniswapV2Pair pair = IUniswapV2Pair(factory.getPair(token0, token1));\\n        if (pair == IUniswapV2Pair(address(0))) {\\n            pair = IUniswapV2Pair(factory.createPair(token0, token1));\\n        }\\n        uint256 lp = orig.balanceOf(msg.sender);\\n        if (lp == 0) return pair;\\n        desiredLiquidity = lp;\\n        orig.transferFrom(msg.sender, address(orig), lp);\\n        orig.burn(address(pair));\\n        pair.mint(msg.sender);\\n        desiredLiquidity = uint256(-1);\\n        return pair;\\n    }\\n}\",\"keccak256\":\"0xa7f4587edc5697dd3003f9ba8e918601de4f1678385e954f849d90130ffdae51\",\"license\":\"MIT\"},\"contracts/uniswapv2/interfaces/IUniswapV2Factory.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity >=0.5.0;\\n\\ninterface IUniswapV2Factory {\\n    event PairCreated(address indexed token0, address indexed token1, address pair, uint);\\n\\n    function feeTo() external view returns (address);\\n    function feeToSetter() external view returns (address);\\n    function migrator() external view returns (address);\\n\\n    function getPair(address tokenA, address tokenB) external view returns (address pair);\\n    function allPairs(uint) external view returns (address pair);\\n    function allPairsLength() external view returns (uint);\\n\\n    function createPair(address tokenA, address tokenB) external returns (address pair);\\n\\n    function setFeeTo(address) external;\\n    function setFeeToSetter(address) external;\\n    function setMigrator(address) external;\\n}\\n\",\"keccak256\":\"0xcaec675e6250bf4cd3364459a0cbf789262af2aaa377d61d4d463f657aea7b50\",\"license\":\"GPL-3.0\"},\"contracts/uniswapv2/interfaces/IUniswapV2Pair.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity >=0.5.0;\\n\\ninterface IUniswapV2Pair {\\n    event Approval(address indexed owner, address indexed spender, uint value);\\n    event Transfer(address indexed from, address indexed to, uint value);\\n\\n    function name() external pure returns (string memory);\\n    function symbol() external pure returns (string memory);\\n    function decimals() external pure returns (uint8);\\n    function totalSupply() external view returns (uint);\\n    function balanceOf(address owner) external view returns (uint);\\n    function allowance(address owner, address spender) external view returns (uint);\\n\\n    function approve(address spender, uint value) external returns (bool);\\n    function transfer(address to, uint value) external returns (bool);\\n    function transferFrom(address from, address to, uint value) external returns (bool);\\n\\n    function DOMAIN_SEPARATOR() external view returns (bytes32);\\n    function PERMIT_TYPEHASH() external pure returns (bytes32);\\n    function nonces(address owner) external view returns (uint);\\n\\n    function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external;\\n\\n    event Mint(address indexed sender, uint amount0, uint amount1);\\n    event Burn(address indexed sender, uint amount0, uint amount1, address indexed to);\\n    event Swap(\\n        address indexed sender,\\n        uint amount0In,\\n        uint amount1In,\\n        uint amount0Out,\\n        uint amount1Out,\\n        address indexed to\\n    );\\n    event Sync(uint112 reserve0, uint112 reserve1);\\n\\n    function MINIMUM_LIQUIDITY() external pure returns (uint);\\n    function factory() external view returns (address);\\n    function token0() external view returns (address);\\n    function token1() external view returns (address);\\n    function getReserves() external view returns (uint112 reserve0, uint112 reserve1, uint32 blockTimestampLast);\\n    function price0CumulativeLast() external view returns (uint);\\n    function price1CumulativeLast() external view returns (uint);\\n    function kLast() external view returns (uint);\\n\\n    function mint(address to) external returns (uint liquidity);\\n    function burn(address to) external returns (uint amount0, uint amount1);\\n    function swap(uint amount0Out, uint amount1Out, address to, bytes calldata data) external;\\n    function skim(address to) external;\\n    function sync() external;\\n\\n    function initialize(address, address) external;\\n}\",\"keccak256\":\"0x08f9a63b34855eec941be8d36a04424f1a1725a2c030373fcef3afeb480ca385\",\"license\":\"GPL-3.0\"}},\"version\":1}",
+  "bytecode": "0x608060405260001960045534801561001657600080fd5b5060405161075f38038061075f8339818101604052608081101561003957600080fd5b50805160208201516040830151606090930151600080546001600160a01b03199081166001600160a01b039586161782556001805482169486169490941790935560028054909316939094169290921790556003556106c190819061009e90396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c806305293137146100675780631bd6dfe1146100815780631fc8bc5d146100a557806340dc0e37146100ad578063c45a0155146100b5578063ce5494bb146100bd575b600080fd5b61006f6100e3565b60408051918252519081900360200190f35b6100896100e9565b604080516001600160a01b039092168252519081900360200190f35b6100896100f8565b61006f610107565b61008961010d565b610089600480360360208110156100d357600080fd5b50356001600160a01b031661011c565b60035481565b6001546001600160a01b031681565b6000546001600160a01b031681565b60045481565b6002546001600160a01b031681565b600080546001600160a01b03163314610173576040805162461bcd60e51b81526020600482015260146024820152733737ba10333937b69036b0b9ba32b91031b432b360611b604482015290519081900360640190fd5b6003544310156101c1576040805162461bcd60e51b8152602060048201526014602482015273746f6f206561726c7920746f206d69677261746560601b604482015290519081900360640190fd5b6001546040805163c45a015560e01b815290516001600160a01b039283169285169163c45a0155916004808301926020929190829003018186803b15801561020857600080fd5b505afa15801561021c573d6000803e3d6000fd5b505050506040513d602081101561023257600080fd5b50516001600160a01b031614610286576040805162461bcd60e51b81526020600482015260146024820152736e6f742066726f6d206f6c6420666163746f727960601b604482015290519081900360640190fd5b6000826001600160a01b0316630dfe16816040518163ffffffff1660e01b815260040160206040518083038186803b1580156102c157600080fd5b505afa1580156102d5573d6000803e3d6000fd5b505050506040513d60208110156102eb57600080fd5b50516040805163d21220a760e01b815290519192506000916001600160a01b0386169163d21220a7916004808301926020929190829003018186803b15801561033357600080fd5b505afa158015610347573d6000803e3d6000fd5b505050506040513d602081101561035d57600080fd5b50516002546040805163e6a4390560e01b81526001600160a01b03868116600483015280851660248301529151939450600093919092169163e6a43905916044808301926020929190829003018186803b1580156103ba57600080fd5b505afa1580156103ce573d6000803e3d6000fd5b505050506040513d60208110156103e457600080fd5b505190506001600160a01b03811661047c57600254604080516364e329cb60e11b81526001600160a01b03868116600483015285811660248301529151919092169163c9c653969160448083019260209291908290030181600087803b15801561044d57600080fd5b505af1158015610461573d6000803e3d6000fd5b505050506040513d602081101561047757600080fd5b505190505b6000856001600160a01b03166370a08231336040518263ffffffff1660e01b815260040180826001600160a01b0316815260200191505060206040518083038186803b1580156104cb57600080fd5b505afa1580156104df573d6000803e3d6000fd5b505050506040513d60208110156104f557600080fd5b505190508061050957509250610686915050565b6004818155604080516323b872dd60e01b815233928101929092526001600160a01b0388166024830181905260448301849052905190916323b872dd9160648083019260209291908290030181600087803b15801561056757600080fd5b505af115801561057b573d6000803e3d6000fd5b505050506040513d602081101561059157600080fd5b50506040805163226bf2d160e21b81526001600160a01b0384811660048301528251908916926389afcb4492602480820193918290030181600087803b1580156105da57600080fd5b505af11580156105ee573d6000803e3d6000fd5b505050506040513d604081101561060457600080fd5b5050604080516335313c2160e11b815233600482015290516001600160a01b03841691636a6278429160248083019260209291908290030181600087803b15801561064e57600080fd5b505af1158015610662573d6000803e3d6000fd5b505050506040513d602081101561067857600080fd5b505060001960045550925050505b91905056fea2646970667358221220cc9eafb437e7851d926cf0e2ec03f93707cf30d51c187fd46868a9873aa3929064736f6c634300060c0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100625760003560e01c806305293137146100675780631bd6dfe1146100815780631fc8bc5d146100a557806340dc0e37146100ad578063c45a0155146100b5578063ce5494bb146100bd575b600080fd5b61006f6100e3565b60408051918252519081900360200190f35b6100896100e9565b604080516001600160a01b039092168252519081900360200190f35b6100896100f8565b61006f610107565b61008961010d565b610089600480360360208110156100d357600080fd5b50356001600160a01b031661011c565b60035481565b6001546001600160a01b031681565b6000546001600160a01b031681565b60045481565b6002546001600160a01b031681565b600080546001600160a01b03163314610173576040805162461bcd60e51b81526020600482015260146024820152733737ba10333937b69036b0b9ba32b91031b432b360611b604482015290519081900360640190fd5b6003544310156101c1576040805162461bcd60e51b8152602060048201526014602482015273746f6f206561726c7920746f206d69677261746560601b604482015290519081900360640190fd5b6001546040805163c45a015560e01b815290516001600160a01b039283169285169163c45a0155916004808301926020929190829003018186803b15801561020857600080fd5b505afa15801561021c573d6000803e3d6000fd5b505050506040513d602081101561023257600080fd5b50516001600160a01b031614610286576040805162461bcd60e51b81526020600482015260146024820152736e6f742066726f6d206f6c6420666163746f727960601b604482015290519081900360640190fd5b6000826001600160a01b0316630dfe16816040518163ffffffff1660e01b815260040160206040518083038186803b1580156102c157600080fd5b505afa1580156102d5573d6000803e3d6000fd5b505050506040513d60208110156102eb57600080fd5b50516040805163d21220a760e01b815290519192506000916001600160a01b0386169163d21220a7916004808301926020929190829003018186803b15801561033357600080fd5b505afa158015610347573d6000803e3d6000fd5b505050506040513d602081101561035d57600080fd5b50516002546040805163e6a4390560e01b81526001600160a01b03868116600483015280851660248301529151939450600093919092169163e6a43905916044808301926020929190829003018186803b1580156103ba57600080fd5b505afa1580156103ce573d6000803e3d6000fd5b505050506040513d60208110156103e457600080fd5b505190506001600160a01b03811661047c57600254604080516364e329cb60e11b81526001600160a01b03868116600483015285811660248301529151919092169163c9c653969160448083019260209291908290030181600087803b15801561044d57600080fd5b505af1158015610461573d6000803e3d6000fd5b505050506040513d602081101561047757600080fd5b505190505b6000856001600160a01b03166370a08231336040518263ffffffff1660e01b815260040180826001600160a01b0316815260200191505060206040518083038186803b1580156104cb57600080fd5b505afa1580156104df573d6000803e3d6000fd5b505050506040513d60208110156104f557600080fd5b505190508061050957509250610686915050565b6004818155604080516323b872dd60e01b815233928101929092526001600160a01b0388166024830181905260448301849052905190916323b872dd9160648083019260209291908290030181600087803b15801561056757600080fd5b505af115801561057b573d6000803e3d6000fd5b505050506040513d602081101561059157600080fd5b50506040805163226bf2d160e21b81526001600160a01b0384811660048301528251908916926389afcb4492602480820193918290030181600087803b1580156105da57600080fd5b505af11580156105ee573d6000803e3d6000fd5b505050506040513d604081101561060457600080fd5b5050604080516335313c2160e11b815233600482015290516001600160a01b03841691636a6278429160248083019260209291908290030181600087803b15801561064e57600080fd5b505af1158015610662573d6000803e3d6000fd5b505050506040513d602081101561067857600080fd5b505060001960045550925050505b91905056fea2646970667358221220cc9eafb437e7851d926cf0e2ec03f93707cf30d51c187fd46868a9873aa3929064736f6c634300060c0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 2991,
+        "contract": "contracts/Migrator.sol:Migrator",
+        "label": "chef",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 2993,
+        "contract": "contracts/Migrator.sol:Migrator",
+        "label": "oldFactory",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_address"
+      },
+      {
+        "astId": 2995,
+        "contract": "contracts/Migrator.sol:Migrator",
+        "label": "factory",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_contract(IUniswapV2Factory)10867"
+      },
+      {
+        "astId": 2997,
+        "contract": "contracts/Migrator.sol:Migrator",
+        "label": "notBeforeBlock",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 3004,
+        "contract": "contracts/Migrator.sol:Migrator",
+        "label": "desiredLiquidity",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_contract(IUniswapV2Factory)10867": {
+        "encoding": "inplace",
+        "label": "contract IUniswapV2Factory",
+        "numberOfBytes": "20"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

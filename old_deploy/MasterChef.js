@@ -2,7 +2,7 @@ module.exports = async function ({ ethers, deployments, getNamedAccounts }) {
   const { deploy } = deployments
 
   const { deployer, dev } = await getNamedAccounts()
-
+  
   const sushi = await ethers.getContract("SushiToken")
   
   const { address } = await deploy("MasterChef", {
