@@ -5,6 +5,7 @@ import "@nomiclabs/hardhat-etherscan"
 import "@nomiclabs/hardhat-solhint"
 import "@tenderly/hardhat-tenderly"
 import "@nomiclabs/hardhat-waffle"
+import "@enjinstarter/hardhat-oklink-verify"
 import "hardhat-abi-exporter"
 import "hardhat-deploy"
 import "hardhat-deploy-ethers"
@@ -35,6 +36,21 @@ const config: HardhatUserConfig = {
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
   },
+  oklink: {
+    // Your API key for OKLink
+    // Obtain one at https://www.oklink.com/en/
+    apiKey: process.env.OKLINK_API_KEY,
+    customChains: [
+      {
+        network: "ethw",
+        chainId: 10001,
+        urls: {
+          apiURL: "https://www.oklink.com/api/explorer/v1/ethw/contract/multipartVerify",
+          browserURL: "https://www.oklink.com/en/ethw",
+        },
+      },
+    ],
+  },
   gasReporter: {
     coinmarketcap: process.env.COINMARKETCAP_API_KEY,
     currency: "USD",
@@ -61,6 +77,12 @@ const config: HardhatUserConfig = {
       accounts,
       gasPrice: 120 * 1000000000,
       chainId: 1,
+    },
+    ethw: {
+      url: `https://ethw-mainnet.nodereal.io/v1/f8728a3265504b998a2f09c83493d76a`,
+      accounts,
+      gasPrice: 25 * 1000000000,
+      chainId: 10001,
     },
     localhost: {
       live: false,
@@ -298,6 +320,15 @@ const config: HardhatUserConfig = {
           },
         },
       },
+      {
+        version: "0.8.16",
+        settings: {
+          optimizer: {
+            enabled: true,
+            runs: 200,
+          },
+        },
+      },
     ],
   },
   spdxLicenseIdentifier: {
@@ -320,7 +351,5 @@ const config: HardhatUserConfig = {
     },
   },
 }
-
-
 
 export default config
