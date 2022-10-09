@@ -5,7 +5,7 @@ pragma solidity >=0.8.0;
 import "./WethMaker.sol";
 import "./uniswapv2/interfaces/IERC20.sol";
 
-/// @notice Contract for selling weth to sushi. Deploy on mainnet.
+/// @notice Contract for selling weth to pow. Deploy on mainnet.
 contract PowMaker is WethMaker {
 
     event Serve(uint256 amount);
